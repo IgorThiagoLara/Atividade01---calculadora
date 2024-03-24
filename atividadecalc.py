@@ -28,7 +28,7 @@ while cont == 0:
 
     if escolha ==1:
         resultado1 = num1+num2
-        print(F"A operação escolhida foi soma: {num1}+{num2} = {resultado1}")
+        print(f"A operação escolhida foi soma: {num1}+{num2} = {resultado1}")
 
     elif escolha ==2:
         resultado2 = num1-num2
