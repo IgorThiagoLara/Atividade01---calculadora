@@ -4,7 +4,7 @@
 
 6) Usuário escolhe a opção (1 - soma ; 2 -  subtração ; 3 - multiplicação ; 4 - divisão ; 5 - sair )
 
-7) Imprima a operação que foi feita e o resulado. Por exemplo: "A operação foi soma: 5+7 = 12")'''
+7) Imprima a operação que foi feita e o resulado. Por exemplo: "A operação foi soma: 5+7 = 12"'''
 
 while True:
     print('''
@@ -14,9 +14,12 @@ while True:
     [4] Divisão
     [5] Sair''')
     escolha = int(input("Escolha qual operação deseja que seja efetuada: "))
-    if escolha >=5 or escolha <=0:
+    if escolha ==5:
         print("Saindo...")
         break
+    elif escolha <=0 or escolha >=6:
+        print("Número inválido, tente novamente")
+        continue
     print("Digite dois números!")
     num1 = int(input("Digite o número 1: "))
     num2 = int(input("Digite o número 2: "))
