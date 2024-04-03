@@ -32,7 +32,7 @@ while True:
     elif escolha ==3:
         resultado3 = num1*num2
         print(f"A operação escolhida foi a multiplicação: {num1}*{num2} = {resultado3}")
-    elif escolha ==4:
+    else:
         resultado4 = num1/num2
         print(f"A operação escolhida foi a divisão: {num1}/{num2} = {resultado4}")
 print("Acabou")
