@@ -18,11 +18,11 @@ while True:
         print("Saindo...")
         break
     elif escolha <=0 or escolha >=6:
-        print("Número inválido, tente novamente")
+        print("Número inválido, tente novamente!!")
         continue
     print("Digite dois números!")
-    num1 = int(input("Digite o número 1: "))
-    num2 = int(input("Digite o número 2: "))
+    num1 = float(input("Digite o número 1: "))
+    num2 = float(input("Digite o número 2: "))
     if escolha ==1:
         resultado1 = num1+num2
         print(f"A operação escolhida foi soma: {num1}+{num2} = {resultado1}")
